@@ -9,6 +9,7 @@ export default defineConfig({
         about: resolve(import.meta.dirname, 'about/index.html'),
         products: resolve(import.meta.dirname, 'products/index.html'),
         contact: resolve(import.meta.dirname, 'contact/index.html'),
+        privacy: resolve(import.meta.dirname, 'privacy/index.html'),
       },
     },
   },
