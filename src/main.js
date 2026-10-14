@@ -9,7 +9,16 @@ const esc = (s) =>
 // Missing content renders nothing on the live site; in dev it shows where the gap is.
 const todo = (text) => (DEV ? `<div class="todo"><b>TODO:</b> ${esc(text)}</div>` : '')
 
+// '+2348065517074' -> '+234 806 551 7074' (Nigerian mobile grouping); other formats are shown as given.
+const prettyPhone = (n) => n.replace(/^\+234(\d{3})(\d{3})(\d{4})$/, '+234 $1 $2 $3')
+
 const contactRows = [
+  contact.phone && { label: 'Phone', value: prettyPhone(contact.phone), href: `tel:${contact.phone}` },
+  contact.whatsapp && {
+    label: 'WhatsApp',
+    value: prettyPhone(contact.whatsapp),
+    href: `https://wa.me/${contact.whatsapp.replace(/\D/g, '')}`,
+  },
   contact.email && { label: 'Email', value: contact.email, href: `mailto:${contact.email}` },
   contact.instagram && {
     label: 'Instagram',
@@ -147,11 +156,11 @@ function productsPage() {
 function contactPage() {
   const rows = contactRows
     .map(
-      (r) => `<a class="link" href="${esc(r.href)}"${r.label === 'Email' ? '' : ' target="_blank" rel="noopener"'}>
+      (r) => `<a class="link" href="${esc(r.href)}"${r.href.startsWith('https:') ? ' target="_blank" rel="noopener"' : ''}>
         <span>${r.label}</span><span class="val">${esc(r.value)}</span></a>`,
     )
     .join('')
-  const missing = ['email', 'instagram', 'tiktok'].filter((k) => !contact[k])
+  const missing = ['phone', 'whatsapp', 'email', 'instagram', 'tiktok'].filter((k) => !contact[k])
   return `
   <section class="page first">
     <div class="wrap">

@@ -30,6 +30,8 @@ export const products = [
 
 export const contact = {
   email: 'ifeomaagada7@gmail.com',
+  phone: '+2348065517074', // international format, digits only after '+'
+  whatsapp: '+2348065517074',
   instagram: null, // TODO: handle without '@'
   tiktok: null, // TODO: handle without '@'
 }
