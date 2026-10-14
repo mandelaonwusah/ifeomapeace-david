@@ -82,7 +82,7 @@ function shelf() {
 function home() {
   const [first, middle, last] = person.name.split(' ')
   const portrait = person.portrait
-    ? `<img class="portrait" src="${esc(person.portrait.src)}" alt="${esc(person.portrait.alt)}" />`
+    ? `<img class="portrait" src="${esc(person.portrait.src)}" alt="${esc(person.portrait.alt)}" width="680" height="680" />`
     : DEV
       ? `<div class="portrait placeholder">TODO: portrait photo of Ifeoma</div>`
       : ''

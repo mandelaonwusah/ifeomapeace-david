@@ -70,7 +70,7 @@ header.nav { position: sticky; top: 0; z-index: 5; background: var(--hero-bg); c
 .btn { display: inline-block; padding: 0.75rem 1.3rem; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: 0.95rem; }
 .btn.primary { background: var(--marigold); color: #2a1827; }
 .btn.ghost { border: 1px solid var(--hero-muted); color: var(--hero-ink); }
-.portrait { aspect-ratio: 4 / 5; width: 100%; max-width: 100%; object-fit: cover; border-radius: 12rem 12rem 1rem 1rem; background: var(--plum-soft); }
+.portrait { aspect-ratio: 1; width: 100%; height: auto; max-width: 340px; justify-self: center; object-fit: cover; border-radius: 50%; }
 .portrait.placeholder { display: grid; place-items: center; text-align: center; color: var(--todo-ink); background: var(--todo-bg); border: 1px dashed var(--todo-line); font-size: 0.85rem; padding: 2rem; }
 .sun { position: absolute; right: -8rem; top: -8rem; width: 22rem; height: 22rem; border-radius: 50%; background: radial-gradient(circle, var(--marigold) 0%, transparent 70%); opacity: 0.25; pointer-events: none; }
 
@@ -122,7 +122,7 @@ footer b { color: var(--hero-ink); font-weight: 500; }
 @media (max-width: 860px) {
   .shelf { grid-template-columns: repeat(2, 1fr); }
   .hero .wrap, .about, .contact { grid-template-columns: 1fr; }
-  .portrait { max-width: 20rem; }
+  .portrait { max-width: 280px; justify-self: start; }
 }
 @media (max-width: 420px) { .shelf { grid-template-columns: 1fr; } }
 @media (prefers-reduced-motion: no-preference) {
