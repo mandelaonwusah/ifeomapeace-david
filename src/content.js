@@ -8,7 +8,7 @@ export const person = {
   role: 'Trustee',
   trusteeSince: null, // TODO: year she became a trustee
   bio: null, // TODO: array of paragraphs, in Ifeoma's own words
-  portrait: null, // TODO: { src: '/images/ifeoma.jpg', alt: '...' }
+  portrait: { src: '/images/ifeoma-portrait.webp', alt: 'Ifeoma Peace David' },
 }
 
 export const productsIntro = 'Home-made natural products.'

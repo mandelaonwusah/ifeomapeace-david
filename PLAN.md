@@ -14,7 +14,7 @@ from `src/content.js`. Deployed on Vercel at `ifeoma.ijidigroup.com`.
 
 - [ ] Date she became a trustee of the IJIDI Foundation
 - [ ] Bio, in her own words
-- [ ] Portrait photo
+- [x] Portrait photo
 - [ ] Coco Powder: cocoa or coconut? Then its category label and description
 - [ ] One plain description for Yoghurt, Custard and Petroleum Jelly
 - [ ] Product photos

@@ -33,7 +33,7 @@ Dark mode follows the visitor's system setting.
 ## Layout and motion
 
 - Single column, max width 68rem, side gutter at least 16px.
-- Plum hero with a soft marigold glow in one corner; arched portrait frame.
+- Plum hero with a soft marigold glow in one corner; circular portrait (the photo carries its own gold ring).
 - Products as a four-up shelf, two-up on tablets, one-up on phones.
 - One motion moment: hero text rises in on load. Disabled under `prefers-reduced-motion`.
 
