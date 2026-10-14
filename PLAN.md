@@ -7,7 +7,7 @@ from `src/content.js`. Deployed on Vercel at `ifeoma.ijidigroup.com`.
 |--------------|-------------------------|-------------------------------------------------------------------------|
 | `/`          | `index.html`            | Hero: name, IJIDI Foundation trustee, home-made natural products. Product preview. |
 | `/about/`    | `about/index.html`      | Role card: Trustee, IJIDI Foundation. Bio (hidden until supplied).      |
-| `/products/` | `products/index.html`   | "Home-made natural products": Coco Powder, Yoghurt, Custard, Petroleum Jelly. |
+| `/products/` | `products/index.html`   | "Home-made natural products": Coco Powder, Yoghurt, Custard, Petroleum Jelly, Soap. |
 | `/contact/`  | `contact/index.html`    | Email (mailto), Instagram, TikTok. Each row only if a value exists.    |
 
 ## Still needed from Ifeoma (hidden until supplied)
@@ -16,7 +16,8 @@ from `src/content.js`. Deployed on Vercel at `ifeoma.ijidigroup.com`.
 - [ ] Bio, in her own words
 - [x] Portrait photo
 - [x] Coco Powder: cocoa (drink powder)
-- [ ] One plain description for Yoghurt, Custard and Petroleum Jelly
+- [x] Yoghurt and Soap descriptions
+- [ ] One plain description for Custard and Petroleum Jelly
 - [ ] Product photos
 - [x] Email address
 - [ ] Instagram handle
