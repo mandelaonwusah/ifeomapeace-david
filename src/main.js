@@ -28,6 +28,7 @@ const shapes = {
   tin: '<rect x="22" y="30" width="56" height="58" rx="8" fill="var(--plum-soft)"/><rect x="18" y="20" width="64" height="14" rx="4" fill="var(--marigold)"/><circle cx="50" cy="60" r="11" fill="var(--shell)"/>',
   cup: '<path d="M28 28h44l-6 60H34z" fill="var(--plum-soft)"/><rect x="24" y="20" width="52" height="10" rx="3" fill="var(--marigold)"/><path d="M36 50h28" stroke="var(--shell)" stroke-width="4" stroke-linecap="round"/>',
   box: '<rect x="26" y="26" width="48" height="62" rx="4" fill="var(--marigold)"/><rect x="26" y="40" width="48" height="22" fill="var(--plum-soft)"/><rect x="34" y="16" width="32" height="12" rx="3" fill="var(--plum)"/>',
+  bar: '<rect x="18" y="38" width="64" height="34" rx="14" fill="var(--plum-soft)"/><rect x="26" y="46" width="48" height="18" rx="9" fill="var(--marigold)"/><circle cx="30" cy="30" r="5" fill="var(--marigold)"/><circle cx="42" cy="24" r="3" fill="var(--plum-soft)"/>',
   tub: '<ellipse cx="50" cy="74" rx="32" ry="12" fill="var(--plum-soft)"/><rect x="18" y="44" width="64" height="30" fill="var(--plum-soft)"/><ellipse cx="50" cy="44" rx="32" ry="12" fill="var(--marigold)"/>',
 }
 

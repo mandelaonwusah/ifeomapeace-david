@@ -25,6 +25,7 @@ export const products = [
   { id: 'yoghurt', name: 'Yoghurt', category: null, description: 'Home-made yoghurt, with a coconut option.', image: null, shape: 'cup' },
   { id: 'custard', name: 'Custard', category: null, description: null, image: null, shape: 'box' },
   { id: 'petroleum-jelly', name: 'Petroleum Jelly', category: null, description: null, image: null, shape: 'tub' },
+  { id: 'soap', name: 'Soap', category: null, description: 'Hand-made soap.', image: null, shape: 'bar' },
 ]
 
 export const contact = {

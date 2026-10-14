@@ -94,7 +94,7 @@ section.page.first { padding-top: 3.5rem; }
 .todo b { font-weight: 600; }
 
 .intro { color: var(--muted); font-size: 1.1rem; max-width: 40rem; margin: -0.8rem 0 2.2rem; }
-.shelf { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.25rem; }
+.shelf { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.25rem; }
 .product { background: var(--card); border: 1px solid var(--line); border-radius: 1rem; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
 .product .art { aspect-ratio: 1; background: var(--shell-sunk); display: grid; place-items: center; }
 .product .art svg { width: 46%; height: auto; }
@@ -119,6 +119,7 @@ footer { background: var(--hero-bg); color: var(--hero-muted); font-size: 0.85re
 footer .wrap { padding-block: 2rem; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
 footer b { color: var(--hero-ink); font-weight: 500; }
 
+@media (max-width: 1000px) { .shelf { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 860px) {
   .shelf { grid-template-columns: repeat(2, 1fr); }
   .hero .wrap, .about, .contact { grid-template-columns: 1fr; }
