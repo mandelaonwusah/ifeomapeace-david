@@ -59,7 +59,7 @@ function footer() {
 }
 
 function productCard(p) {
-  const desc = p.description ? `<p>${esc(p.description)}</p>` : todo(`${p.name}: ${p.id === 'coco-powder' ? 'cocoa or coconut? Then one plain line.' : 'one plain line on what it is.'}`)
+  const desc = p.description ? `<p>${esc(p.description)}</p>` : todo(`${p.name}: ${'one plain line on what it is.'}`)
   const art = p.image
     ? `<img src="${esc(p.image.src)}" alt="${esc(p.image.alt)}" loading="lazy" />`
     : `<svg viewBox="0 0 100 100" aria-hidden="true">${shapes[p.shape]}</svg>`
@@ -156,7 +156,7 @@ function contactPage() {
     <div class="wrap">
       <div class="sec-head"><h1>Contact</h1></div>
       <div class="contact">
-        <p class="lead">To get in touch with Ifeoma, use any of the links here.</p>
+        <p class="lead">To get in touch with Ifeoma, use the details here.</p>
         <div class="links">${rows}${missing.length ? todo(`contact ${missing.join(', ')}. Each row appears only once a real value is added.`) : ''}</div>
       </div>
     </div>

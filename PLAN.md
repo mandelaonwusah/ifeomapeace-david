@@ -12,13 +12,13 @@ from `src/content.js`. Deployed on Vercel at `ifeoma.ijidigroup.com`.
 
 ## Still needed from Ifeoma (hidden until supplied)
 
-- [ ] Date she became a trustee of the IJIDI Foundation
+- [x] Date she became a trustee of the IJIDI Foundation
 - [ ] Bio, in her own words
 - [x] Portrait photo
-- [ ] Coco Powder: cocoa or coconut? Then its category label and description
+- [x] Coco Powder: cocoa (drink powder)
 - [ ] One plain description for Yoghurt, Custard and Petroleum Jelly
 - [ ] Product photos
-- [ ] Email address
+- [x] Email address
 - [ ] Instagram handle
 - [ ] TikTok handle
 

@@ -6,29 +6,29 @@ export const person = {
   name: 'Ifeoma Peace David',
   foundation: 'IJIDI Foundation',
   role: 'Trustee',
-  trusteeSince: null, // TODO: year she became a trustee
+  trusteeSince: '2023',
   bio: null, // TODO: array of paragraphs, in Ifeoma's own words
   portrait: { src: '/images/ifeoma-portrait.webp', alt: 'Ifeoma Peace David' },
 }
 
-export const productsIntro = 'Home-made natural products.'
+export const productsIntro = 'Home-made natural products, coming to market soon.'
 
 export const products = [
   {
     id: 'coco-powder',
     name: 'Coco Powder',
-    category: null, // TODO: confirm cocoa vs coconut before adding a label
-    description: null, // TODO: confirm cocoa vs coconut, then one plain line
+    category: null,
+    description: 'A home-made cocoa drink powder.',
     image: null,
     shape: 'tin',
   },
-  { id: 'yoghurt', name: 'Yoghurt', category: null, description: null, image: null, shape: 'cup' },
+  { id: 'yoghurt', name: 'Yoghurt', category: null, description: 'Home-made yoghurt, with a coconut option.', image: null, shape: 'cup' },
   { id: 'custard', name: 'Custard', category: null, description: null, image: null, shape: 'box' },
   { id: 'petroleum-jelly', name: 'Petroleum Jelly', category: null, description: null, image: null, shape: 'tub' },
 ]
 
 export const contact = {
-  email: null, // TODO: e.g. 'name@example.com'
+  email: 'ifeomaagada7@gmail.com',
   instagram: null, // TODO: handle without '@'
   tiktok: null, // TODO: handle without '@'
 }
